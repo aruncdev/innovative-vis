@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="#" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src='scripts/homework5.js'></script>
+
+    <title>Soviet space dogs to Orbit</title>
+
+    <Style>
+        
+        #wrapper {
+          margin:auto;
+          width:1440px;
+        }
+        #dog-container{
+          width:1000px;
+          height:1000px;
+        }
+
+        div.tooltipData{
+        position: absolute;
+        text-align: left;
+        padding: .5rem;
+        background: #FFFFFF;
+        color: #313639;
+        border: 1px solid #313639;
+        pointer-events: none;
+        font-size: 1.3rem;
+        display: inline-block;
+        border-radius: 6px;
+      }
+
+        h2, h3 {
+          text-align:center;
+        }
+
+        #linechart {
+          width:800px;
+        }
+
+        /*#info {
+          border:1px solid gray;
+          border-radius:10px;
+          height:500px;
+          width:600px;
+          top:0px;
+          margin:1000px;
+        }*/
+    </Style>
+  </head>
+
+  <body>
+    <div id='wrapper'>
+      <h2 style="color:red;">Homework #5: Journey of Soviet space dogs to Orbit</h2>
+      <h3>Arun Raj Deva - adeva@asu.edu - 1218410609</h3>
+      <hr style = 'width:100%'>
+      <br/>
+
+      <div>
+        <p style="color:red;">
+        Information from the image:
+      </p>
+      <p>
+        Each row from the below image shows a dataset of one dog that went to the space. The below image is a static but with the change of data, the visualization can be changed. The below visualization show name of each dog that went to the space, number of times it went to space, gender of the dog and fate of the dog.
+      </p>
+
+      <p style="color:red;">
+        Each object representation as follows:
+      </p>
+      <p>
+        <ul>
+          <li>Dog with tongue: Represents a female dog</li>
+          <li>Dog without tongue: Represents a male dog</li>
+          <li>Star: each star represnts one journey to orbit</li>
+          <li>Gold star: gold star represents the successful journey</li>
+          <li>Black star: black star represents the death of dog</li>
+          <li>Text: name of the dog</li>
+        </ul>  
+      </p>
+
+      <p style="color:red;">
+        Why do I think this is a good and/or interesting visualization?
+      </p>
+      <p>
+        In this assignment it is mentioned that "The audience for this visualization is visitors to a musuem". So, the main focus was on visitors understanding the data in a single look and convey important information about the soviet dogs that went to the orbit. With this visualization it is easy to get all the data example first row means "a female dog named squirrel took 4 flights to space where all the 4 missions were successful".
+      </p>
+
+      <p style="color:red;">
+        The data is:
+      </p>
+      <p>
+        <ul>
+          <li>Quantitative: Number of flights taken</li>
+          <li>Categorical: Fate, gender of the dog</li>
+          <li>Other: name</li>
+          <li>Marks: area</li>
+          <li>Channels: position, shape, hue</li>
+        </ul>  
+      </p>
+
+      <p style="color:red;">
+        User tasks:
+      </p>
+      <p>
+        <ul>
+          <li>Lookup: example: what is the gender of dog named Squirrel</li>
+          <li>Compare: example: compare number of flights each dog took</li>
+          <li>Browse: example: find the dog that took high number of flights</li>
+          <li>Hover: You can hover over any dog and find about the flight it took, its latin name and other facts</li>
+        </ul> 
+      </p>
+
+      </div>
+      <div id = "dog-container">
+        <div id = "text">
+        </div>
+      </div>
+
+      <div id = "tooltipData"></div>
+      <!-- <section id="vis"></section>  -->
+      </div>
+    
+  </body>
+
+</html>

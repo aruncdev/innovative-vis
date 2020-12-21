@@ -1,0 +1,95 @@
+{
+ "name": "Soviet Space Dogs",
+ "img": "https://is2-ssl.mzstatic.com/image/thumb/Music30/v4/c4/8c/a4/c48ca49c-0189-388f-a29f-b49ad95ccc2e/cover.jpg/600x600bb.webp",
+ "children": [
+  {
+   "name": "Heroes",
+   "children": [
+    {
+     "Name": "Squirrel",
+   "Flights": 4,
+   "Fate": "Yes",
+   "LatinName": "Belka",
+   "img":  "/data/icon.PNG"
+    },
+    {
+      "Name": "Barker",
+   "Flights": 1,
+   "Fate": "No",
+   "LatinName": "Laika",
+   "img":  "/data/icon.PNG"
+    },
+    {
+      "Name": "Little Fox",
+   "Flights": 1,
+   "Fate": "No",
+   "LatinName": "Lisichka",
+   "img":  "/data/icon.PNG"
+    },
+    {
+      "Name": "Panther / Seagull",
+   "Flights": 1,
+   "Fate": "No",
+   "LatinName": "Bars / Chaika",
+   "img":  "/data/icon.PNG"
+    },
+    {
+      "Name": "Little Arrow",
+   "Flights": 1,
+   "Fate": "Yes",
+   "LatinName": "Strelka",
+   "img":  "/data/icon.PNG"
+    },
+    {
+      "Name": "Little Fly",
+   "Flights": 1,
+   "Fate": "No",
+   "LatinName": "Mushka",
+   "img":  "/data/icon.PNG"
+    },
+    {
+      "Name": "Little Bee",
+   "Flights": 1,
+   "Fate": "No",
+   "LatinName": "Pchyolka",
+   "img":  "/data/icon.PNG"
+    },
+    {
+      "Name": "Joke",
+   "Flights": 1,
+   "Fate": "Yes",
+   "LatinName": "Shutka",
+   "img":  "/data/icon.PNG"
+    },
+    {
+      "Name": "Comet",
+   "Flights": 1,
+   "Fate": "Yes",
+   "LatinName": "Kometka",
+   "img":  "/data/icon.PNG"
+    },
+    {
+   "Name": "Little Star",
+   "Flights": 1,
+   "Fate": "Yes",
+   "LatinName": "Zvezdochka",
+   "img":  "/data/icon.PNG"
+ },
+ {
+   "Name": "Little Piece of Coal / Snowball",
+   "Flights": 1,
+   "Fate": "Yes",
+   "LatinName": "Ugolyok / Snezhok",
+   "img":  "/data/icon.PNG"
+ },
+ {
+   "Name": "Little Wind / Little Fart",
+   "Flights": 1,
+   "Fate": "Yes",
+   "LatinName": "Veterok / Bzdunok",
+   "img":  "/data/icon.PNG"
+ }
+  ]
+  } 
+ ]
+}

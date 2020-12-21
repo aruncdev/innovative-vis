@@ -1,0 +1,21 @@
+#wrapper {
+  margin:auto;
+  width:1440px;
+}
+/*svg {
+  border:1px solid gray;
+  border-radius:10px;
+  height:480px;
+  width:720px;
+  margin:5px;
+}*/
+
+
+html {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+h2, h3 {
+  text-align:center;
+}
